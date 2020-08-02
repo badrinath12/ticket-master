@@ -1,0 +1,548 @@
+.TopMenu {
+    background-color: #282c34;
+    color: white;
+}
+
+.mainbody{
+    background-color: aqua;
+}
+.TopMenu_Button {
+    border-radius: 80px;
+    width:120px;
+    height: 30px;  
+    margin-left: 10px;
+    font-size: large;
+    margin-top: 10px;
+
+  }
+
+  .TopMenu_Login_Button {
+    border-radius: 80px;
+    width:120px;
+    height: 30px;  
+    margin-left: 10px;
+    font-size: large;
+    margin-top: 10px;
+  }
+.TopMenu-Login_LinksView{
+    list-style: none;
+    display: flex;
+    margin:0px;
+    margin-left: 700px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.TopMenu-LinksView{
+    list-style: none;
+    display: flex;
+    margin:0px;
+    height: 50px;
+    margin-left: 1100px;
+    margin-bottom: 60px;
+}
+   
+  .TopMenu-header{
+      float: left;
+      font-size: 30px;
+      margin-left: 30px;     
+  }
+
+.HomePage-Link,.Login-HomePage-Link{
+    text-align: center;
+}
+
+.Login-section-insideview {     
+    text-align: center;         
+}
+
+.Login-pwd , .Login-username {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.LoginButton{
+    border-radius: 80px;
+    width: 320px;
+    height: 40px; 
+    font-size: large; 
+    background-color:sandybrown;
+}
+
+
+.Register {
+    text-align: center; 
+}
+.RegisterButton{
+    border-radius: 80px;
+    width: 320px;
+    height: 40px; 
+    font-size: large; 
+    background-color:sandybrown;
+}
+
+.Register-pwd,.Register-username,.Register-email {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.customersInfo {
+    text-align: center;
+     
+}
+.table-customer-info{
+     
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.Add-new-Customer_Button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    /* margin-left: 10px; */
+    font-size: large;
+    background-color: darksalmon;
+}
+
+.NewCustomer-section {
+    text-align: center;
+}
+
+.AddCustomer-label-phno,.AddCustomer-label-name,.AddCustomer-label-email{
+    margin-right: 400px;
+    margin-bottom:10px;
+}
+.AddCustomer-phno, .AddCustomer-name ,.AddCustomer-email {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.AddCustomer_button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    /* margin-left: 10px; */
+    font-size: large;
+    background-color: darksalmon;
+}
+ 
+.Edit-Customer-section {
+    text-align: center;
+}
+
+.EditCustomer-label-name,.EditCustomer-label-email,.EditCustomer-label-phno {
+    margin-right: 400px;
+    margin-bottom:10px;
+}
+
+.EditCustomer-name, .EditCustomer-email ,.EditCustomer-phno {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.Submit-Edit-Customer_button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    font-size: large;
+    background-color: blue;
+    color: floralwhite;
+}
+
+.Editcustomer_Button {
+    border-radius: 80px;
+    width:140px;
+    height: 35px;  
+    margin-bottom: 20px; 
+    font-size: large;
+    background-color: blue;
+    color: floralwhite; 
+}
+
+.Ticket-Show-all-button , .Ticket-Show-pending-button,.Ticket-Show-complete-button {
+    border-radius: 80px;
+    width:110px;
+    height: 35px;  
+    margin-left: 10px; 
+    font-size: large;
+    background-color:greenyellow;  
+} 
+
+.DepartmentsInfo {
+    margin-left: 300px;
+}
+
+.department-list-view {
+    list-style: none;  
+}
+
+ 
+.department-list-inside-view {
+    border:  1px solid gray;    
+     width :700px;
+     border-radius: 4px;
+     height: 50px;
+     align-items: center;
+     text-align: left;
+     padding-top: 10px;
+     padding-left: 10px;
+     font-size: larger;
+} 
+
+.department-list-header , .depart-list-add-header{
+    padding-left: 50px;
+}
+
+.departsection-list-button{
+    text-align: right;    
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+ .remove-depatment-button {    
+     background-color: red;
+     font-size: medium;
+     color: honeydew;
+     border-radius: 80px;
+     width:100px;
+     height: 35px;  
+    
+ }
+ .show-depatment-button {
+    margin-right: 50px;
+    background-color: greenyellow;
+    font-size: medium; 
+    border-radius: 80px;
+    width:100px;
+    height: 35px;   
+}
+
+.new-department-text{
+     margin-left: 40px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;   
+}
+
+.add-department-button{
+    margin-left: 60px;
+    border-radius: 80px;
+    width:100px;
+    height: 35px;  
+    margin-bottom: 20px; 
+    font-size: large;
+    background-color:tomato; 
+}
+
+.Editdepartment_Button {
+    margin-left:10px;
+    border-radius: 80px;
+    width:200px;
+    height: 35px;  
+    margin-bottom: 20px; 
+    font-size: large;
+    color: floralwhite;
+    background-color:blue; 
+}
+
+.Show-customer-section {
+    margin-left: 200px;
+}
+
+.customer-Ticketinfo_Button{
+    
+    background-color: greenyellow;
+    font-size: medium; 
+    border-radius: 80px;
+    width:80px;
+    height: 25px; 
+}
+
+.customer-remove_Button{
+    background-color: red;
+    font-size: medium;
+    color: honeydew;
+    border-radius: 80px;
+    width:80px;
+    height: 25px;     
+}
+
+.edit-department-text {
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;      
+}
+
+.add-editted-department-button{
+    background-color: Blue;
+    color: honeydew;
+    font-size: medium; 
+    border-radius: 80px;
+    width:100px;
+    height: 35px; 
+    margin-left: 40px;
+}
+
+/* Employee style details */
+
+.employeesInfo {
+    text-align: center;
+     
+}
+.table-employee-info{ 
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.Add-new-Employee_Button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    /* margin-left: 10px; */
+    font-size: large;
+    background-color: darksalmon;
+}
+
+.NewEmployee-section {
+    text-align: center;
+}
+
+.AddEmployee-label-name,.AddEmployee-label-email,.AddEmployee-label-phno , .AddEmployee-label-dept{
+    margin-right: 400px;
+    margin-bottom:10px;
+}
+.AddEmployee-name, .AddEmployee-email ,.AddEmployee-phno,.AddEmployee-dept {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.AddEmployee_button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    /* margin-left: 10px; */
+    font-size: large;
+    background-color: blue;
+    color: floralwhite;
+}
+ 
+.EditEmployee-section {
+    text-align: center;
+}
+
+.EditEmployee-label-name,.EditEmployee-label-email,.EditEmployee-label-phno,.EditEmployee-label-dept{
+    margin-right: 400px;
+    margin-bottom:10px;
+}
+
+.EditEmployee-name, .EditEmployee-email ,.EditEmployee-phno,.EditEmployee-dept {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.EditEmployee_button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    font-size: large;
+    background-color: blue;
+    color: floralwhite;
+}
+
+.Editcustomer_Button {
+    border-radius: 80px;
+    width:140px;
+    height: 35px;  
+    margin-bottom: 20px; 
+    font-size: large;
+    background-color: blue;
+    color: floralwhite; 
+}
+
+.employee-remove_Button{    
+    background-color: red;
+    font-size: medium;
+    color: honeydew;
+    border-radius: 80px;
+    width:100px;
+    height: 30px;  
+    margin:  10px;
+}
+.employee-Ticketinfo_Button {
+   margin:  10px;
+   background-color: greenyellow;
+   font-size: medium; 
+   border-radius: 80px;
+   width:100px;
+   height: 30px;   
+}
+
+.Show-employee-section{
+   margin-left: 200px; 
+}
+
+.EditEmployee_Button{
+    border-radius: 80px;
+    width:140px;
+    height: 35px;  
+    margin-bottom: 20px; 
+    font-size: large;
+    background-color: blue;
+    color: floralwhite; 
+}
+
+.ticket-list-Info{
+    text-align: center;   
+}
+
+.table-Ticket-info{
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.ticket-All-button , .ticket-pending-button , .ticket-completed-button {
+    border-radius: 10px;
+    width:110px;
+    height: 30px;    
+    font-size: medium;
+    background-color: brown;
+    color: floralwhite; 
+}
+
+.ticket-search-text {
+    height: 20px;
+    width: 200px; 
+    margin-left: 130px;
+     
+} 
+.Tikcet-remove_Button{    
+    background-color: red;
+    font-size: medium;
+    color: honeydew;
+    border-radius: 80px;
+    width:90px;
+    height: 30px;  
+    margin:  10px;
+}
+.ticketList-icketinfo_Button {
+   margin:  10px;
+   background-color: greenyellow;
+   font-size: medium; 
+   border-radius: 80px;
+   width:90px;
+   height: 30px;   
+}
+
+.Add-new-ticket_Button {
+    border-radius: 80px;
+    width:180px;
+    height: 35px;
+    font-size: large;
+    background-color: darkorange;
+}
+
+.New-Ticket-section {
+    margin-left: 519px;
+} 
+
+.AddTicket-label-code,.AddTicket-label-customer,.AddTicket-label-dept , .AddTicket-label-employee , .AddTicket-label-message ,.AddTicket-label-priority
+{
+    margin-right: 400px;
+    margin-bottom:10px;
+}
+
+.AddTicket-code, .AddTicket-customer ,.AddTicket-department,.AddTicket-select-employee , .AddTicket-message  {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+ 
+.AddTicket-message{
+    height: 60px;
+}
+
+ 
+.AddEmployee_button{
+    border-radius: 80px;
+    width:220px;
+    height: 35px;  
+    margin-left: 150px;
+    font-size: large;
+    background-color: blue;
+    color: floralwhite;
+}
+
+.ShowTicket-section{
+    margin-left: 320px;
+    
+}
+
+.showTicket-full-section {
+    border: 1px solid black;
+    width: 600px;
+
+}
+.showTicket-customer-label ,.showTicket-employeelabel ,.showTicket-department-label , .showTicket-message-label ,.showTicket-priority-label{ 
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: grid; 
+    
+}
+ 
+.ticketshow-editInfo_Button{
+    border-radius: 80px;
+    width:120px;
+    height: 35px;  
+    margin-left: 20px;
+    font-size: large;
+    background-color: blue;
+    color: floralwhite;
+}
+
+.show-Ticket-customer-section {
+    margin-top: 10px;     
+    color: black;
+    margin: 0px;
+    /* display: flex; */
+}
+
+.showAll-Ticket-cutomer-section {
+    margin-top: 10px;
+    max-width: 50%;
+    position: relative;
+    border: 2px solid black; 
+    padding-right: 40px; 
+    border-radius: 6%;
+    background-color:burlywood;
+    color: black;
+    margin-right: 20px;
+    display: inline-block;
+     
+}
+
+.ticket-progressbar{ 
+    width:600px;  
+    height: 18px;
+    /* border-style: hidden; */
+}
+
+.piechar-tickets {
+    margin-left: 100px;
+    width:500px;
+    height:300px;
+    size: 500px;
+    display: inline-block;
+}
+
+.barchar-tickets{
+    margin-left: 100px; 
+    size: 400px;
+}
